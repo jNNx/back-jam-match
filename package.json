@@ -1,0 +1,38 @@
+{
+  "name": "backtend-jam-match",
+  "version": "1.0.0",
+  "description": "Proyecto final del bootcamp de React-Node para DevLights",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TongasHub/backtend-jam-match.git"
+  },
+  "keywords": [
+    "project",
+    "backend",
+    "nodejs",
+    "react",
+    "bootcamp",
+    "devlights"
+  ],
+  "author": "Facundo Almaraz, Lucas Colman, Thiago Falkievich, Gaston Ferreyra, Juan Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TongasHub/backtend-jam-match/issues"
+  },
+  "homepage": "https://github.com/TongasHub/backtend-jam-match#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
